@@ -1,5 +1,5 @@
 :root{
-    --main : #fd6822;
+    --main : #c226d6;
     --accent: #5b21de;
     --bg : rgb(209, 214, 219);
 }
@@ -172,7 +172,7 @@ button{
 }
 
 .anmnt+ .anmnt{
-    border-top: 1px solid rgb(180, 180, 180);
+    border-top: 3px solid rgb(78, 78, 78);
     padding-top : 20px;
 }
 
@@ -230,4 +230,21 @@ button{
     display: grid;
     gap : 20px;
     grid-template-columns: repeat( auto-fit, minmax(400px, 1fr));
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap :10px;
+}
+
+.user h4{
+    margin-bottom: 5px;
+}
+
+.trending > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }
